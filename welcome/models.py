@@ -1,3 +1,4 @@
 from django.db import models
 
-# Create your models here.
+class Element(model.Model):
+  element_nom = models.CharField(max_length=50)

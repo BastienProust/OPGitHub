@@ -1,5 +1,6 @@
 from django.http import HttpResponse
+from pythonping import ping
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    return HttpResponse(ping('8.8.8.8'))

@@ -3,5 +3,5 @@ from django.conf.urls import include, url
 from . import views
 
 urlpatterns = [
-     url(r'^/', include(views.index, name='index')),
+     url(r'^/', include(views.index)),
 ]

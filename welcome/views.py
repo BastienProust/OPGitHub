@@ -1,6 +1,5 @@
 from django.http import HttpResponse
 import requests
-import webbrowser
 
 def index(request):
     go()
